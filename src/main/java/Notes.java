@@ -15,10 +15,12 @@ class Notes {
 				occurances++; //increase for each number we fine
 				index = i; //save the index of the number we found
 				i = numArray.length; //Does first occurance ONLY
+				//return i;
 			}
 		}
 
 		// return index;
+		// return -1;
 		System.out.println(index);
 		
 	}
